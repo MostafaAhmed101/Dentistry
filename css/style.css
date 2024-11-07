@@ -115,8 +115,9 @@ li a{
 }
 @media screen and (max-width:900px){
     #EGYPTIAN{
-        display: block;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #Eimg{
         margin-top: 40px;
@@ -156,8 +157,9 @@ li a{
 }
 @media screen and (max-width:900px){
     #dentist1{
-        display: block;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #dentist1 img{
         margin-top: 40px;
@@ -202,8 +204,9 @@ li a{
 }
 @media  screen and (max-width:900px){
     #dentist2{
-        display: block;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #dentist2 img{
 
