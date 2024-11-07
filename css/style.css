@@ -53,12 +53,18 @@ img{
     #Sources{
         width: 300px;
         height: 300px;
+        overflow:auto;
+        border: 1px solid;
+        padding: 5px;
     }
 }
 @media screen and (min-width:500px) and (max-width:900px){
     #Sources{
         width: 350px;
         height: 350px;
+        overflow:auto;
+        border: 1px solid;
+        padding: 5px;
     }
     #Sources p{
         font-size: 17px;
