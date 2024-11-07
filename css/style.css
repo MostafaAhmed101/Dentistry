@@ -45,7 +45,7 @@ img{
 #Sources{   /* for min-width:900*/
     width: 400px;
     height: 400px;
-    overflow:auto;
+    overflow-y:scroll;
     border: 1px solid;
     padding: 5px;
 }
@@ -53,9 +53,7 @@ img{
     #Sources{
         width: 300px;
         height: 300px;
-        overflow:auto;
-        border: 1px solid;
-        padding: 5px;
+
     }
 }
 @media screen and (min-width:500px) and (max-width:900px){
