@@ -47,7 +47,7 @@ img{
     height: 400px;
     overflow-y:scroll;
     border: 1px solid;
-    padding: 5px;
+    padding: 25px;
 }
 @media screen and (max-width:500px){
     #Sources{
@@ -60,9 +60,6 @@ img{
     #Sources{
         width: 350px;
         height: 350px;
-        overflow:auto;
-        border: 1px solid;
-        padding: 5px;
     }
     #Sources p{
         font-size: 17px;
